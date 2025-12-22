@@ -57,7 +57,7 @@ int main()
   }
   uintptr_t anterior = 0;
   // se xs for atribuido ao node de inicio , os nodes serao do menor ao maior, se xs for atribuido a fim, sera do maior ao menor.
-  for(Node *iter = xs.inicio; iter; iter = node_next(iter, &anterior)){
+  for(Node *iter = xs.fim; iter; iter = node_next(iter, &anterior)){
     printf("[node] : [ %d ] \n", iter->value);
   }
   return 0;

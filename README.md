@@ -7,3 +7,12 @@ Repositório de códigos utilizando a propriedade XOR.
 - Associative: (A ^ B) ^ C = A ^ (B ^ C).
 - Identity: A ^ 0 = A --> xor 0 retorna o valor original.
 - Self-inverse: A ^ A = 0 --> xor de um valor nele mesmo retorna 0.
+
+
+## Códigos
+
+- XOR-LinkedList
+- XOR-Encoder
+- XOR-FindDuplicate
+
+
