@@ -11,7 +11,7 @@ Cada pasta contém um programa independente que compila e executa com:
 ```
 
 --------------------------------------------------------------------
-## 1. `ll/` – Lista duplamente ligada “XOR”
+## 1. `XOR-LinkedList/` – Lista duplamente ligada “XOR”
 -----------------------------------------
 **Conceito**  
 Armazena **apenas um ponteiro por nó** (`node->xored`) que é o XOR entre o endereço do nó anterior e do próximo.  
@@ -26,7 +26,7 @@ Com isso é possível percorrer a lista nos dois sentidos sem o campo `prev` tra
   O valor `anterior` é atualizado a cada passo, garantindo que o XOR “desfaca” o endereço correto.
 
 --------------------------------------------------------------------
-## 2. `swap/` – Troca de variáveis sem temporária
+## 2. `XOR-Encoder/` – Troca de variáveis sem temporária
 ----------------------------------------------
 **Conceito**  
 Troca dois inteiros **sem variável auxiliar** usando três XORs consecutivos.
@@ -41,7 +41,7 @@ O script `swap.py` mostra o mesmo princípio com texto:
 `chr(ord(caractere) ^ chave) ^ chave == caractere`
 
 --------------------------------------------------------------------
-## 3. `dup/` – Detecta o número duplicado
+## 3. `XOR-FindDuplicate/` – Detecta o número duplicado
 --------------------------------------
 **Conceito**  
 Dado um vetor que contém todos os inteiros de 1 a 100 **exceto um**, e **um valor duplicado no lugar do ausente**, encontra o duplicado em O(n) e O(1) de memória.
