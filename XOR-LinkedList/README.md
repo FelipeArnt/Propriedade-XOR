@@ -58,7 +58,7 @@ Saída esperada:
 
 ```bash
 # Memory-leak check
-valgrind --leak-check=full --show-leak-kinds=all ./ll
+valgrind --leak-check=full --show-leak-kinds=all ./run
 ```
 
 Resultado limpo:
