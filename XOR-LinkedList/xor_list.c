@@ -29,8 +29,8 @@ void xl_free(XorList *l)
 
   while (atual) {
     Node *proximo = (Node *)(atual->link ^ (uintptr_t)anterior);
-    free(atual);
     anterior = atual;
+    free(atual);
     atual = proximo;  
   }
   free(l);
