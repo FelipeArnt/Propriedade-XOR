@@ -90,7 +90,7 @@ Todos os números corretos aparecem duas vezes no XOR global e se anulam, restan
 -------------------------------------------------
 **Conceito**  
 Em CTFs a xor-list é usada **não para economizar memória**, mas como *gadget* de confusão:  
-- Reverse/Pwn: esconde ponteiros (`prev ^ next`) forçando o reverser a perceber o truque.  
+- Reverse/Pwn: esconde ponteiros (`anterior ^ proximo`) forçando o reverser a perceber o truque.  
 - Heap-exploitation: overwrite do campo `link` gera **arbitrary-write** ou **redirect-flow** com um único valor controlado.
 
 Exemplo clássico: off-by-one sobre `node->link` → XOR manipulado aponta para `__free_hook` ou `got.plt`.
