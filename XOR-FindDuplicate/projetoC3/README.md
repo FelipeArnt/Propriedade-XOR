@@ -7,7 +7,6 @@ O algoritmo roda em O(n) tempo, O(1) espaço e **sem ordenar** – apenas com o 
 ## Compilação & execução (Arch Linux / qualquer distro com C3)
 ```bash
 sudo pacman -S c3c          # ou build a partir do repo oficial
-git clone <url-do-repo>
 cd projetoC3
 c3c compile-run src/main.c3
 ```
@@ -41,8 +40,8 @@ projetoC3/
 └─ README.md
 ```
 
-## Brincando com o código
-- Troque o vetor `ys` para outro range ou múltiplos duplicados e veja o resultado.  
-- Descomente `io::println("ticks: ", clock());` para medir tempo (precisa `import std::time`).  
-- Compile com `c3c compile -O3 --emit-asm src/main.c3` e abra `main.s` para conferir que não há overhead.
+## Modificando o código
+- Trocar o vetor `ys` para outro range ou múltiplos duplicados e veja o resultado.  
+- Descomentar `io::println("ticks: ", clock());` para medir tempo (precisa `import std::time`).  
+- Compilar com `c3c compile -O3 --emit-asm src/main.c3` e abra `main.s` para conferir que não há overhead.
 
