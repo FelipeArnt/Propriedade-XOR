@@ -38,7 +38,7 @@ git clone https://github.com/felipearnt/Propriedades-XOR.git
 cd Propriedades-XOR/XOR-LinkedList
 
 # Compile
-chmod +x build.sh && ./build.sh         # ou: gcc -std=c99 -Wall -Wextra -g ll.c -o ll
+chmod +x build.sh && ./build.sh         # ou: gcc -std=c99 -Wall -Wextra -g main.c xor_list.c  -o run
 
 # Execute
 ./run
