@@ -103,6 +103,6 @@ Exemplo clássico: off-by-one sobre `node->link` → XOR manipulado aponta para 
 |-------------|--------------|
 | `A ^ A = 0` | ponteiro para si mesmo anula-se |
 | `A ^ 0 = A` | basta um lado para recuperar o outro |
-| comutativo / associativo | `(prev ^ next) ^ prev == next` |
+| comutativo / associativo | `(anterior ^ proximo) ^ anterior == proximo` |
 
 ---
